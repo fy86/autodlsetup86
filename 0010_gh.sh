@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source /etc/network_turbo
+# source /etc/network_turbo
 
 apt update
 # apt install gh
