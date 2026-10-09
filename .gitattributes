@@ -1,0 +1,53 @@
+# Set default behavior: all text files use LF in the repo
+* text=auto eol=lf
+
+# Explicitly mark text file types
+*.py        text eol=lf
+*.pyi       text eol=lf
+*.md        text eol=lf
+*.txt       text eol=lf
+*.toml      text eol=lf
+*.cfg       text eol=lf
+*.ini       text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.json      text eol=lf
+*.xml       text eol=lf
+*.html      text eol=lf
+*.css       text eol=lf
+*.js        text eol=lf
+*.ts        text eol=lf
+*.sh        text eol=lf
+*.bat       text eol=lf
+*.ps1       text eol=lf
+*.sql       text eol=lf
+*.csv       text eol=lf
+*.rst       text eol=lf
+*.in        text eol=lf
+*.env       text eol=lf
+
+# Git config files
+.gitattributes  text eol=lf
+.gitignore      text eol=lf
+.editorconfig   text eol=lf
+
+# Denote binary files (never touch line endings)
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.webp      binary
+*.woff      binary
+*.woff2     binary
+*.ttf       binary
+*.eot       binary
+*.zip       binary
+*.gz        binary
+*.tar       binary
+*.pdf       binary
+*.db        binary
+*.sqlite    binary
+*.pkl       binary
+*.npy       binary
+*.npz       binary
